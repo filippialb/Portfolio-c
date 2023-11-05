@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+.page-wrapper{
+  position: relative;
+}
+
+div{
+  display: block;
+}
+
+#header-img{
+  width: 80px;
+  float: left 
+}
+
+
+header{
+  position: fixed;
+  top:0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  
+}
+
+#hero{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+height: 200px;
+margin-top: 50px;
+
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+form{
+  display:block;
+}
+
+#hero input[type='email']{
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+input {
+  
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.button{
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0px;
+  border:0;
+  background-color: #f1c40f;
+  padding: 0 20px;
+  font-size: 1em;
+  font-weight: 900;
+  border-radius: 2px;
+  cursor: pointer;
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+.features{
+  margin-top: 30px;
+}
+
+.grid{
+  display: flex;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: darkorange;
+
+}
+
+
+.fab fa-facebook-f{
+  font-weight: 900;
+
+}
+
+.how-it-works{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  }
+
+#video{
+  max-width: 560px;
+  width: 100%;
+}
+
+
+.pricing{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.product-header{
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  font-weight: 700;
+
+}
+
+@media (max-width: 600px)
+{
+  .facet_sidebar
+   {
+    display: none;
+   }
+}
